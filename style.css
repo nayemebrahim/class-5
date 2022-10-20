@@ -1,0 +1,25 @@
+.section {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.left img {
+    height: 500px;
+}
+.right {
+    padding-left: 20px;
+    margin-top: 65px;
+}
+.right span {
+    color: rgb(11, 126, 197);
+}
+.bi {
+    float: right;
+    /* display: none; */
+}
+.panel-group .panel .panel-heading h4 a[area-expanded=true] i.bi.bi-caret-down-fill {
+    display: block;
+}
+.panel-group .panel .panel-heading h4 a[area-expanded=false] i.bi.bi-caret-up-fill {
+    display: block;
+}
